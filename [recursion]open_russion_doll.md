@@ -15,3 +15,14 @@ Using type hints can help improve code readability, maintainability, and can als
 
 The script includes a docstring that explains the concept of recursion and how to use the `open_russian_doll` function.
 The if `__name__ == "__main__":` block at the end of the script calls the `open_russian_doll` function with an argument of 5 to demonstrate the functionality of the script.
+
+### When to use recursion?
+
+When the problem can be devided into similar sub-problems. The sub-problem must be similar, otherwise recursion it's not a choice.
+
+### How can we know if the sub-problem it's similar?
+
+Usually when the problem begins with the following statements:
+- design an algorithm to compute nth ...
+- write code to list the n ...
+- implement a methos to compute all.
