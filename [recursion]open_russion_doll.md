@@ -28,3 +28,7 @@ Usually when the problem begins with the following statements:
 - design an algorithm to compute nth ...
 - write code to list the n ...
 - implement a methos to compute all.
+- in general, when the input isn't huge, and the memory can handle it.
+
+### When NOT to use recursion?
+- when time and space complexity materrs for us.
