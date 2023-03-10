@@ -1,4 +1,6 @@
-# open_russion_doll()
+# Recursion Algorithm
+
+### open_russion_doll()
 
 The script demonstrates the concept of recursion, which is a way of solving a problem by having a function call itself and perform the same operation multiple times with different inputs, while trying smaller inputs in every step to make the problem smaller. A base condition is necessary to stop the recursion, otherwise an infinite loop will occur.
 
