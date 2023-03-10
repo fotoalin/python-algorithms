@@ -16,6 +16,7 @@ The : int after the doll parameter indicates that it is expected to be an intege
 Using type hints can help improve code readability, maintainability, and can also help catch type-related bugs during development.
 
 The script includes a docstring that explains the concept of recursion and how to use the `open_russian_doll` function.
+
 The if `__name__ == "__main__":` block at the end of the script calls the `open_russian_doll` function with an argument of 5 to demonstrate the functionality of the script.
 
 ### When to use recursion?
