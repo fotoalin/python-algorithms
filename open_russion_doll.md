@@ -7,7 +7,11 @@ The function starts with a base condition that checks if `doll` is equal to 1, i
 If `doll` is greater than 1, the function prints `"Open doll number"` followed by the current value of doll, and then calls itself with the parameter `doll = doll-1`.
 This process continues until the base condition is met and the recursion stops.
 
+The script uses Python's type hints, which provide a way to annotate function arguments and return values with their expected data types. In this case, the `open_russian_doll` function takes an integer parameter doll and returns None, as specified in the type hints for the function:
 
+The : int after the doll parameter indicates that it is expected to be an integer, and the -> None after the function definition indicates that the function returns None.
+
+Using type hints can help improve code readability, maintainability, and can also help catch type-related bugs during development.
 
 The script includes a docstring that explains the concept of recursion and how to use the `open_russian_doll` function.
 The if `__name__ == "__main__":` block at the end of the script calls the `open_russian_doll` function with an argument of 5 to demonstrate the functionality of the script.
